@@ -1,0 +1,11 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image: url("chalkboard1.jpg");
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
