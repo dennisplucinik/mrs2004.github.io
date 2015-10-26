@@ -1,11 +1,68 @@
 body{
 	margin:0;
 	padding: 0;
-	background-image: url("chalkboard1.jpg");
+	background: url("Portfolio/Pics/chalkboard6.jpg");
+	z-index: 20;
 }
 
-ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+	z-index: 0;
 }
+
+
+#navbar{
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 43px;	
+}
+
+/*#navbar ul{
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+} is this even necessary? when I commented out, nothing changed.*/
+
+#navbar li{
+	display: inline; /*they no longer occupy 100% the available width and they now stack up nicely against each other.*/
+	padding: 20px;	/*spaces in between words*/
+}
+
+#navbar a{
+	display: inline-block; /*to make sure the links themselves don’t break onto new lines but still obey any padding values accordingly*/
+	text-decoration: none;
+	color: #a46b8e;
+}
+
+.bigger_letters span{
+	font-size: 50px;
+}
+
+#Mel_Links{
+	display: inline-block; /*this makes the ul into horizontal*/
+}
+
+#Mel_Links img{
+	height: 40px; /*Size of the images*/
+}
+
+img#SI{
+	height: 33px; /*ok, it started working when I did img#SI but not #SI img.  I changed #Mel_Links img to img#Mel_Links and 
+	it all fucked up.  When does the type go in front of the id and when does it go after?*/
+}
+
+#Mel_Links li{
+	display: inline; /*This makes the list horizontal rather than vertical with bullet points*/
+	padding: 3px;	/*This is how much space is in between each list item, but I don't understand how it is different than the padding for Mel_Links a */
+}
+
+/*commenting out here because I don't understand how this differs from above and which is better to use.
+#Mel_Links a{
+	padding: 0px 0px 0px 0px;
+}
+*/
