@@ -23,6 +23,33 @@ body{
 	font-size: 35px;	
 }
 
+div{
+	position:; relative;
+	float: left;
+	font-family: 'Homemade Apple', handwriting;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 0;
+	margin-top: 0; /*I know I shouldn't do this, but . . . I couldn't get my text to align!*/
+	font-size: 20px;
+	color: #dad4e9;
+}
+
+#mel_face {
+	float: left;
+	margin-left: 50px;
+	width: 30%;
+}
+
+#mel_face img{
+	height: 300px; /*Size of the images*/
+}
+
+#aboutme {
+	float: left;
+	width: 60%;
+}
+
 /*#navbar ul{
 	height: auto;
 	padding: 8px 0px;
@@ -31,7 +58,7 @@ body{
 
 #navbar li{
 	display: inline; /*they no longer occupy 100% the available width and they now stack up nicely against each other.*/
-	padding: 10px;	/*spaces in between words*/
+	padding: 15px;	/*spaces in between words*/
 }
 
 #navbar a{
@@ -51,24 +78,29 @@ a#curriculum{
 }
 
 footer{
-	position: relative; /*position is a declaration that allows you to posiition things on the page, but you can't posiition unless it's relative
-	or aboslute.  We are going to position Mel_Links aboslutely in relation to the footer because footer is its parent.  I can't posotion absolutely
+	position: relative; /*position is a declaration that allows you to posiition things on the page, 
+	but you can't posiition unless it's relative
+	or aboslute.  We are going to position Mel_Links aboslutely in relation to the 
+	footer because footer is its parent.  I can't posotion absolutely
 	because the parent has no posiitioning. Position in relation to the footer.*/
+
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
 }
 
 #Mel_Links{
-	display: inline-block; /*this makes the ul into horizontal*/
 	position: absolute; /**/
 	right:0;/*once you  use positioning you can use right, left, top, bottom, etc.*/
+	bottom: 0;
 }
 
 #Mel_Links img{
 	height: 40px; /*Size of the images*/
-}
-
-img#SI{
-	height: 33px; /*ok, it started working when I did img#SI but not #SI img.  I changed #Mel_Links img to img#Mel_Links and 
-	it all fucked up.  When does the type go in front of the id and when does it go after?*/
 }
 
 #Mel_Links li{
