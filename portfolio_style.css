@@ -16,10 +16,11 @@ body{
 
 
 #navbar{
-	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	position:; relative;
+	font-family: 'Homemade Apple', handwriting;
 	font-weight: bold;
 	text-align: center;
-	font-size: 43px;	
+	font-size: 35px;	
 }
 
 /*#navbar ul{
@@ -30,7 +31,7 @@ body{
 
 #navbar li{
 	display: inline; /*they no longer occupy 100% the available width and they now stack up nicely against each other.*/
-	padding: 20px;	/*spaces in between words*/
+	padding: 10px;	/*spaces in between words*/
 }
 
 #navbar a{
@@ -39,8 +40,14 @@ body{
 	color: #a46b8e;
 }
 
-.bigger_letters span{
-	font-size: 50px;
+a#portfolio{
+	color: #b77ba3;
+}
+a#resume{
+	color: #cf98b6;
+}
+a#curriculum{
+	color: #dabad5;
 }
 
 footer{
