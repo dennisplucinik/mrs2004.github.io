@@ -1,7 +1,7 @@
 body{
 	margin:0;
 	padding: 0;
-	background: url("Portfolio/Pics/chalkboard6.jpg");
+	background: url("Pics/chalkboard6.jpg");
 	z-index: 20;
 }
 
@@ -43,8 +43,16 @@ body{
 	font-size: 50px;
 }
 
+footer{
+	position: relative; /*position is a declaration that allows you to posiition things on the page, but you can't posiition unless it's relative
+	or aboslute.  We are going to position Mel_Links aboslutely in relation to the footer because footer is its parent.  I can't posotion absolutely
+	because the parent has no posiitioning. Position in relation to the footer.*/
+}
+
 #Mel_Links{
 	display: inline-block; /*this makes the ul into horizontal*/
+	position: absolute; /**/
+	right:0;/*once you  use positioning you can use right, left, top, bottom, etc.*/
 }
 
 #Mel_Links img{
@@ -60,6 +68,7 @@ img#SI{
 	display: inline; /*This makes the list horizontal rather than vertical with bullet points*/
 	padding: 3px;	/*This is how much space is in between each list item, but I don't understand how it is different than the padding for Mel_Links a */
 }
+
 
 /*commenting out here because I don't understand how this differs from above and which is better to use.
 #Mel_Links a{
