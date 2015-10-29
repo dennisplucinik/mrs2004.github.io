@@ -1,116 +1,104 @@
 body{
 	margin:0;
 	padding: 0;
-	background: url("Pics/chalkboard6.jpg");
+	background: url("Pics/Petals_Filter.jpg");
 	z-index: 20;
 }
 
-#logo{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	height: auto;
-	z-index: 0;
-}
-
-
-#navbar{
-	position:; relative;
-	font-family: 'Homemade Apple', handwriting;
-	font-weight: bold;
-	text-align: center;
-	font-size: 35px;	
-}
-
-div{
-	position:; relative;
-	float: left;
-	font-family: 'Homemade Apple', handwriting;
-	font-weight: bold;
+#name{
+	position: relative;
+	margin-left: 50px;
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 0px;
 	text-align: left;
-	margin-left: 0;
-	margin-top: 0; /*I know I shouldn't do this, but . . . I couldn't get my text to align!*/
-	font-size: 20px;
-	color: #dad4e9;
+	font-size: 40px;
+	letter-spacing: -1px;	
+	color: #164E0C;
+    text-shadow: 2px 2px 2px #CED8F5;
+	width: 100%;
+}
+
+
+
+nav{
+	height: 0px;
+    background-color: rgba(42,58,156,0.5);
+    padding: 30px 10px 57px;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 40px 100px;
+	font-family: 'museo300';
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 35px;
+	color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
+}
+
+nav ul li a{
+	color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 220px;
+    background-color: rgba(42,58,156,0.5);
+    padding: 20px 10px;
+    margin-bottom: 50px;
 }
 
 #mel_face {
-	float: left;
-	margin-left: 50px;
-	width: 30%;
-}
-
-#mel_face img{
-	height: 300px; /*Size of the images*/
+    float: left;
+    margin-left: 50px;
+    width: 220px;
 }
 
 #aboutme {
-	float: left;
-	width: 60%;
-}
-
-/*#navbar ul{
-	height: auto;
-	padding: 8px 0px;
-	margin: 0px;
-} is this even necessary? when I commented out, nothing changed.*/
-
-#navbar li{
-	display: inline; /*they no longer occupy 100% the available width and they now stack up nicely against each other.*/
-	padding: 15px;	/*spaces in between words*/
-}
-
-#navbar a{
-	display: inline-block; /*to make sure the links themselves don’t break onto new lines but still obey any padding values accordingly*/
-	text-decoration: none;
-	color: #a46b8e;
-}
-
-a#portfolio{
-	color: #b77ba3;
-}
-a#resume{
-	color: #cf98b6;
-}
-a#curriculum{
-	color: #dabad5;
+    float: left;
+    width: 65%;
+    font-family: 'museo300';
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 25px;
+    color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+    line-height: 120%;
+    background-color: rgba(42,58,156,0);
 }
 
 footer{
-	position: relative; /*position is a declaration that allows you to posiition things on the page, 
-	but you can't posiition unless it's relative
-	or aboslute.  We are going to position Mel_Links aboslutely in relation to the 
-	footer because footer is its parent.  I can't posotion absolutely
-	because the parent has no posiitioning. Position in relation to the footer.*/
-
+	height: 70px;
+	background-color: rgba(42,58,156,0.5);
+	padding: 20px 10px;
+	bottom:0;
+	width:100%;
+	margin-bottom: 20px;
 }
 
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
-}
 
-#Mel_Links{
-	position: absolute; /**/
-	right:0;/*once you  use positioning you can use right, left, top, bottom, etc.*/
-	bottom: 0;
-}
 
 #Mel_Links img{
 	height: 40px; /*Size of the images*/
 }
 
+
+
+
 #Mel_Links li{
+	float: right;
+	margin-right: 30px;
 	display: inline; /*This makes the list horizontal rather than vertical with bullet points*/
 	padding: 3px;	/*This is how much space is in between each list item, but I don't understand how it is different than the padding for Mel_Links a */
 }
-
-
-/*commenting out here because I don't understand how this differs from above and which is better to use.
-#Mel_Links a{
-	padding: 0px 0px 0px 0px;
-}
-*/
