@@ -1,0 +1,21 @@
+body{
+	margin:0;
+	padding: 0;
+	background: url("HP_background_coloradjust.png");
+	z-index: 20;
+}
+#title{
+	font-family: 'harry_pregular';
+}
+.subs{
+	font-family: 'harry_pregular';
+}
+#castle{
+	;
+}
+#author{
+	font-family: 'harry_pregular';
+}
+#illustrator{
+	font-family: 'harry_pregular';
+}
