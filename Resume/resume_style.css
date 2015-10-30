@@ -1,82 +1,62 @@
 body{
 	margin:0;
 	padding: 0;
-	background: url("Pics/chalkboard6.jpg");
+	background: url("Pics/Petals_Filter.jpg");
 	z-index: 20;
 }
 
-#logo{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+nav{
+	height: 230px;
+	width: 102%;
+    background-color: rgba(42,58,156,0.5);
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+#name{
 	width: 100%;
-	height: auto;
-	z-index: 0;
+	margin-left: 20px;
+	margin-top: -30px;
+	font-family: 'Homemade Apple', cursive;
+	font-size: 60px;
+	letter-spacing: -1px;	
+	color: #C42021;
+    text-shadow: 1px 1px 1px #323758;
 }
 
-#first{
-	font-size: 50px;
+p#name {
+    margin-bottom: -70px;  
 }
 
-#rest{
-	font-size: 43px;
+nav ul{
+	margin-left: -40px;
 }
 
-#navbar{
-	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+	font-family: 'museo300';
+	letter-spacing: 3px;
 	font-weight: bold;
-	text-align: center;	
+	font-size: 30px;
+	color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
 }
 
-#navbar li{
-	display: inline; 
-	padding: 20px;	
+nav ul li a{
+	color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
 }
 
-#navbar a{
-	display: inline-block; 
-	text-decoration: none;
-	color: #a46b8e;
-}
-
-#Mel_Links{
-	position: fixed; 
-	bottom: 0px; 
-	right: 0px;
-}
-
-#git{
-	position: fixed; 
-	bottom: 10px; 
-	right: 115px;
-}
-#linkedin{
-	position: fixed; 
-	bottom: 10px; 
-	right: 75px;
-}
-#SI{
-	position: fixed; 
-	bottom: 15px; 
-	right: 40px;
-}
-#airbnb{
-	position: fixed; 
-	bottom: 10px; 
-	right: 5px;
-}
-
-#Mel_Links img{
-	height: 40px; 
-}
-
-img#SI{
-	height: 33px; 
-}
-
-#Mel_Links li{
-	display: inline; 
-	padding: 3px;	
+main {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(42,58,156,0.5);
+    padding: 20px 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #resume{
@@ -84,7 +64,31 @@ img#SI{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -200px;
 }
+
+footer{
+	height: 70px;
+	background-color: rgba(42,58,156,0.5);
+	padding: 20px 10px;
+	width:100%;
+	margin-bottom: 20px;
+}
+
+footer ul{
+	margin-right: 10px;
+}
+
+#Mel_Links img{
+	height: 40px; /*Size of the images*/
+}
+
+#Mel_Links li{
+	float: right;
+	display: inline-block; /*This makes the list horizontal rather than vertical with bullet points*/
+	padding: 10px;	/*This is how much space is in between each list item, but I don't understand how it is different than the padding for Mel_Links a */
+}
+
 
 
 
