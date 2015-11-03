@@ -14,6 +14,7 @@ body{
 h1{
 	height: 230px;
     background-color: rgba(223,218,215,0.5);
+    text-align: left;
     margin-top: 20px;
     z-index: 19;
 }
@@ -23,6 +24,7 @@ h3{
 	margin-top: -210px;
 	z-index: 4;
 	line-height: 150%;
+	text-align: left;
 }
 
 nav ul{
@@ -69,7 +71,8 @@ a#menuplace{
 #menu{
 	z-index: 1;
 	margin-top: 590px;
-	margin-left: 15%;
+	margin-left: auto;
+	margin-right: auto;
 	width: 70%;
 }
 
@@ -79,12 +82,13 @@ li{
 }
 
 #farmer_table{
-	margin-left: 200px;
+	margin-left: 150px;
 	margin-top: 270px;
 }
 
 .about_farmer{
 	padding: 10px 0px 0px 150px;
+	text-align: left;
 }
 .farmer_pic{
 	width:200%;
@@ -96,19 +100,22 @@ li{
 	font-size: 30px;
 }
 
-#food_table{
-	margin-left: 150px;
-	margin-top: 370px;
-}
-
-.food_pic{
-	width:25%;
-}
-
 #farms ul li{
 	display: inline-block;
 }
 
+div#scroller{
+	float: left;
+	display: inline;
+	height: 400px;
+	white-space: nowrap;
+	margin-left: 100px;
+	margin-top: 300px;
+	margin-bottom: 470px;
+}
 
-
+div#map{
+	margin-left: auto;
+	margin-right: auto;
+}
 
