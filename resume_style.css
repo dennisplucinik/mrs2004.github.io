@@ -28,6 +28,12 @@ p#name {
     margin-bottom: -70px;  
 }
 
+#computer{
+	font-family: Courier;
+	color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 30px;
+}
 
 main {
     width: 100%;
