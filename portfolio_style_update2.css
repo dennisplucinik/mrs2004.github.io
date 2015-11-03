@@ -1,0 +1,164 @@
+body{
+	margin:0;
+	padding: 0;
+	background: url("Pics/Petals_Filter.jpg");
+	z-index: 20;
+}
+
+header{
+	height: 230px;
+	width: 102%;
+    background-color: rgba(42,58,156,0.5);
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+#name{
+	float: left;
+	width: 100%;
+	margin-left: 20px;
+	margin-top: -20px;
+	font-family: 'Homemade Apple', cursive;
+	text-align: left;
+	font-size: 60px;
+	letter-spacing: -1px;	
+	color: #C42021;
+    text-shadow: 1px 1px 1px #323758;
+}
+
+h1#name {
+    margin-bottom: -50px;  
+}
+
+#tagline {
+	float: left;
+	width: 100%;
+	margin-left: 70px;
+	margin-top: 0px;
+	font-family: 'Homemade Apple', cursive;
+	text-align: left;
+	font-size: 30px;
+	letter-spacing: -1px;	
+	color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+
+}
+
+nav ul{
+	text-align: center;
+	padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 40px;
+    margin-top: -20px;
+	font-family: 'museo300';
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
+}
+
+nav ul li a{
+	color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
+}
+
+nav ul li img{
+	background-color: rgba(42,58,156,0); 
+	width: 70px;
+}
+
+#about {
+	color:#E6F9AF;
+}
+
+#resume {
+	color:#0D0630;
+}
+
+#learn {
+	color:#D3FAD6;
+}
+
+#portfolio {
+	color:#D1EFB5;
+}
+
+#cv {
+	color:#EDEBA0;
+}
+
+#musings {
+	color:#8BBEB2;
+}
+
+main{
+	margin-top: 40px;
+}
+
+#mel_face {
+    float: left;
+    margin-left: 50px;
+    width: 250px;
+}
+
+main p{
+	height: 130px;
+    background-color: rgba(42,58,156,0.5);
+	font-family: 'museo300';
+	letter-spacing: 3px;
+	font-size: 20px;
+	color: #CED8F5;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+
+footer{
+	margin-top: 100px;
+	height: 70px;
+	background-color: rgba(42,58,156,0.5);
+	padding: 20px 10px;
+	width:100%;
+	
+}
+
+footer ul{
+	margin-right: 10px;
+}
+
+#Mel_Links img{
+	height: 40px; /*Size of the images*/
+}
+
+#Mel_Links li{
+	float: right;
+	float: bottom;
+	display: inline-block; /*This makes the list horizontal rather than vertical with bullet points*/
+	padding: 10px;	/*This is how much space is in between each list item, but I don't understand how it is different than the padding for Mel_Links a */
+}
+
+
+a.hovertext {
+    position: relative;
+    text-decoration: none !important;
+    text-align: center;
+  }
+
+  a.hovertext:after {
+    content: attr(title);
+    position: absolute;
+
+    text-decoration: none !important;
+    opacity: 0;
+  }
+
+  a.hovertext:hover:after, a.hovertext:focus:after {
+    opacity: 1.0;
+  }
+
+
