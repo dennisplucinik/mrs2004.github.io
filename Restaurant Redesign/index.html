@@ -5,31 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="restaurant_style.css"/>
 	<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8"/>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=TRUEORFALSE"></script>
-    <script type="text/javascript">
-    	function initialize() {
-        	var position = new google.maps.LatLng(42.35, -71.1);
-        	var myOptions = {
-        		zoom: 15,
-        		center: position,
-        		mapTypeId: google.maps.MapTypeId.ROADMAP
-        	};
-        	var map = new google.maps.Map(
-        		document.getElementById("map"),
-        		myOptions);
-        	var marker = new google.maps.Marker({
-    			position: position,
-    			map: map,
-    			title: 'Honest Burger'
-			});
-			var contentString='Hello <strong>World</strong>!'
-			var infowindow= new google.maps.infoWindow({
-				content: contentString
-			});
-			google.maps.event.addListener(marker, 'click', function(){
-
-			});
-		}
-		</script>
 
     <script type="text/javascript">
     function scrollDiv(dir, px) {
@@ -46,19 +21,19 @@
 	<style type="text/css">
     	#scroller {
         	width: 1000px;
-        	height: 400px;
+        	height: 300px;
+        	margin-top: 210px;
         	border: 20px solid rgba(223,218,215, 0.5);
         	overflow: scroll;
         	margin: 0 auto;
-    	}
-    	
+    	}  	
 	</style>
 
 </head>
 <body>
 	<header class="fixed_navbar">
 		<h1>Honest Burgers</h1>
-		<h3>179 Lincoln Street, Boston, MA 02111   ||   +01 888-425-5557<br><br><br>Mon/Tue/Wed/Thu/Sun 12 PM to 10 PM<br>Fri/Sat 12 PM to 11 PM<br>info@honestburgers.com</h3>
+		<h3>179 Lincoln Street, Boston, MA 02111   ||   +01 888-425-5557<br><br>Mon/Tue/Wed/Thu/Sun 12 PM to 10 PM<br>Fri/Sat 12 PM to 11 PM<br>info@honestburgers.com</h3>
 		<nav>
 			<ul id="navbar">
 				<li><a href="#menu">Menu</a></li>
@@ -72,21 +47,12 @@
 	<main>
 	<img id="burger" src="Pics/watercolor_burger.jpg">
 	<p id="slogan">Grass fed beef.<br>Local veggies.<br>Happy bellies.</p>
+	
+	<a name="menu"></a>
+	<img id="menu" src="Pics/menu_watercolor.jpg"> 
 
-	<footer>
-		<ul id="Social_Media">
-			<li> <a href="fake_twitter" target="_blank"><img src=""></a></li>
-			<li> <a href="fake_facebook" target="_blank"><img src=""></a></li>
-			<li> <a href="fake_instagram" target="_blank"><img id="SI" src=""></a></li>
-		</ul>
-	</footer>
-
-
-	<a id="menuplace" name="menu"></a>
-	<img id="menu" src="Pics/menu_watercolor.jpg">
-
-	<a name="spotlight">
-	<table id="farmer_table" style="width:80%">
+	<a name="spotlight"></a>
+	<table id="farmer_table" style="width:80%"> 
 		<tr>
 			<td><img class="farmer_pic" src="Pics/rancher_watercolor_border.jpg"></td>
 			<td class="about_farmer"><span class="farm_name">Vacas Verdes </span>mustache chia cronut cliche, taxidermy art party before they sold out salvia normcore truffaut blue bottle drinking vinegar. Hashtag disrupt sartorial, portland ethical master cleanse banh mi post-ironic keytar messenger bag twee bushwick lumbersexual. Lo-fi wayfarers godard scenester chillwave health goth, church-key distillery.</td>
@@ -100,27 +66,29 @@
 			<td class="about_farmer"><span class="farm_name">Smile Farm </span>fap forage humblebrag, keytar iPhone seitan flexitarian blog williamsburg chillwave whatever organic cronut food truck. Distillery marfa DIY four loko. Microdosing chicharrones taxidermy, messenger bag selfies lomo put a bird on it lumbersexual flannel pop-up thundercats pitchfork godard.</td>
 		</tr>
 	</table>
-	</a>
-
-<a href="javascript: void(0);" onclick="scrollDiv('l', 20); return false;"></a>
-|
-<a href="javascript: void(0);" onclick="scrollDiv('r', 20); return false;"></a>
-
-<div id="scroller"> <a name="photos">
-    
+	<a name="photos">  </a>
+	<a href="javascript: void(0);" onclick="scrollDiv('l', 20); return false;"></a>
+	<a href="javascript: void(0);" onclick="scrollDiv('r', 20); return false;"></a>
+	<div id="scroller"> 
         <img class = "food_pic" src="Pics/tomatoes_watercolor_square.png">
         <img class = "food_pic" src="Pics/happycow_watercolor_square.png">
         <img class = "food_pic" src="Pics/carrots_watercolor_square.png">
         <img class = "food_pic" src="Pics/lettuce_watercolor_square.png">
         <img class = "food_pic" src="Pics/pickles_watercolor_square.png">
         <img class = "food_pic" src="Pics/happycow2_watercolor_square.png">
-   </a>
-</div>    
+	</div>    
+	
+	<div class="feature map">
+	<ul><a name="contact"></a>
+		<li> <iframe width="400" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJT4xQVnh644kRuEFlbtJm4PE&key=AIzaSyDSjmhUgb8HEwSSfL0-aEB5CMuRiN1js2E" allowfullscreen></iframe></a></li>
+		<li  class="Social_Media"> <a href="fake_email" target="_blank"><img src="Pics/email_black.png"></a></li>
+		<li  class="Social_Media"> <a href="fake_twitter" target="_blank"><img src="Pics/twitter_black.png"></a></li>
+		<li  class="Social_Media"> <a href="fake_facebook" target="_blank"><img src="Pics/instagram_black.png"></a></li>
+		<li  class="Social_Media"> <a href="fake_instagram" target="_blank"><img src="Pics/Facebook_black.png"></a></li>
+	</ul>
+	</div>
 
-	<a name="contact">
-	<body onload="initialize()">
-		<div id="map" style="width: 500px; height 500px"></div></a>
-	</body>
-
+	
+	
 </body>
 </html>

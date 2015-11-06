@@ -1,9 +1,49 @@
-body{
-	margin:0;
-	padding: 0;
-	background: url("Pics/Wood-planks.jpg");
-	z-index: 20;
-	font-family: 'momstypewriterregular'
+#burger{
+	margin-left: 25%;
+	margin-top: 200px;
+	width: 50%;
+	z-index: 1;	
+}
+
+#farms ul li{
+	display: inline-block;
+}
+
+#farmer_table{
+	margin-left: 150px;
+	margin-top: 270px;
+	padding-top: 210px;
+}
+
+#menu{
+	margin-left: 25%;
+	margin-top: 390px;
+	padding-top: 210px;
+	width: 50%;
+	z-index: 1;
+}
+
+#slogan{
+	color: rgb(223,218,215);
+	font-size: 30px;
+	margin-left: 25%;
+	margin-top: -410px;
+	text-shadow: 1px 1px 1px #000000;
+	z-index: 2;
+}
+
+.about_farmer{
+	padding: 10px 0px 0px 150px;
+	text-align: left;
+}
+
+.farm_name{
+	font-size: 30px;
+}
+
+.farmer_pic{
+	margin-left: 20px;
+	width:200%;
 }
 
 .fixed_navbar{
@@ -11,69 +51,63 @@ body{
 	width: 100%;
 }
 
-h1{
-	height: 230px;
+.food_pic{
+	height: 300px;
+	width: 300px;
+}
+
+.Social_Media img{
+	height: 50px;
+	margin-top: 330px;
+	padding: 10px;
+	width: 50px;
+}
+
+.Social_Media li{
+	padding: 10px;
+}
+
+
+
+
+a#menuplace{
+	margin-top: 260px;
+}
+
+body{
+	background: url("Pics/Wood-planks-long.jpg");
+	font-family: 'momstypewriterregular';
+	margin:0;
+	padding: 0;
+	z-index: 20;
+}
+
+
+div#scroller{
+	display: inline;
+	float: left;
+	height: 300px;
+	margin-bottom: 470px;
+	margin-left: 100px;
+	margin-top: 200px;
+	white-space: nowrap;
+}
+
+h1{	
     background-color: rgba(223,218,215,0.5);
-    text-align: left;
+    height: 170px;
     margin-top: 20px;
-    z-index: 19;
+    text-align: left;
+    z-index: 19;    
 }
 
 h3{
-	position: absolute;
-	margin-top: -210px;
-	z-index: 4;
+	font-size: 15px;
 	line-height: 150%;
+	margin-top: -150px;
+	position: absolute;
 	text-align: left;
-}
-
-nav ul{
-	position: relative;
-	margin-left: 450px; /*I'm constantly aligning text by hand -- is there a better way to do this?*/
-	z-index: 4;
-	margin-top: -90px;
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 20px;
-	letter-spacing: 3px;
-	font-size: 30px;
-    text-decoration: none;
-}
-
-nav ul li a{
-	color: black;
-    text-shadow: 1px 1px 1px #000000;
-    text-decoration: none;
-}
-
-#burger{
-	width: 70%;
-	margin-left: 15%;
-	z-index: 1;
-	margin-top: 300px;
-}
-
-#slogan{
-	z-index: 2;
-	font-size: 50px;
-	color: rgb(223,218,215);
-	margin-left: 15%;
-	margin-top: -550px;
-	text-shadow: 1px 1px 1px #000000;
-}
-
-a#menuplace{
-	margin-top: 360px;
-}
-
-#menu{
-	z-index: 1;
-	margin-top: 590px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
+	z-index: 4;	
 }
 
 li{
@@ -81,41 +115,33 @@ li{
 	float: left;
 }
 
-#farmer_table{
-	margin-left: 150px;
-	margin-top: 270px;
+nav ul{	
+	margin-left: 450px; /*I'm constantly aligning text by hand -- is there a better way to do this?*/
+	margin-top: -80px;
+	position: relative;
+	z-index: 4;
 }
 
-.about_farmer{
-	padding: 10px 0px 0px 150px;
-	text-align: left;
+nav ul li {
+    display: inline-block;
+    font-size: 25px;
+    letter-spacing: 3px;
+	padding: 20px;
+    text-decoration: none;
 }
-.farmer_pic{
-	width:200%;
-	margin-left: 20px;
+
+nav ul li a{
+	color: black;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000; 
 }
 
 
-.farm_name{
-	font-size: 30px;
-}
 
-#farms ul li{
-	display: inline-block;
-}
 
-div#scroller{
-	float: left;
-	display: inline;
-	height: 400px;
-	white-space: nowrap;
-	margin-left: 100px;
-	margin-top: 300px;
-	margin-bottom: 470px;
-}
 
-div#map{
-	margin-left: auto;
-	margin-right: auto;
-}
+
+
+
+
 
